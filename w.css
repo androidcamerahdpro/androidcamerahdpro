@@ -1,0 +1,125 @@
+.b{
+	background-color: #808080;
+
+	/*bottom: 0;*/
+}
+.bc {
+	color: white;
+  	width:100%;
+	height:100%;
+	/*margin:0;*/
+	left: 0;
+	position: absolute;
+	bottom: 0;
+}
+.bid {
+	display: block;
+	position: absolute;
+	height:100%;
+	width: 100%;
+	/*width:auto;*/
+	/*left: auto;*/
+	/*right: auto;*/
+	margin: auto;
+	/*margin-bottom: 0;*/
+	opacity: 0.5;
+	/*margin-top: 15%*/
+}
+.bi {
+	height:100%;
+	width: 100%;
+}
+.td {
+	background-color: black;
+	opacity: 0.6;
+	position: absolute;
+	margin-bottom: 0;
+	width: 100%;
+}
+.t {
+	z-index: 100%;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	width: auto;
+	font-family: "Black Ops One", cursive;
+	font-size: 7.5vw;
+	text-align: center;
+}
+.d {
+	z-index: 100;
+	width: auto;
+	margin-top: 0%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: "Marvel", sans-serif;
+	font-size: 2.5vw;
+	margin-bottom: 0;
+	position: relative;
+	text-align: center;
+}
+.tdt {
+	display: inline;
+	z-index: 100;
+	width: 100%;
+	margin-top: 20%;
+	font-family: "Marvel", sans-serif;
+	font-size: 	2.5vw;
+	margin-bottom: 0;
+	position: absolute;
+	text-align: center;
+}
+.tld {
+	margin-top: 2.5%;
+	z-index: 100;
+	font-size: 2vw;
+	position: relative;
+}
+.ld {
+	display: inline-block;
+	bottom: 0;
+	left: 35%;
+	right: 10%;
+	margin-bottom: 2%;
+	position: absolute;
+	width: auto;
+	height: auto;
+	border: 0;
+}
+.fl {
+	width: 10%;
+}
+.gl {
+	width: 10%;
+	margin-left: 5%;
+}
+.il {
+	width: 10%;
+	margin-left: 5%;
+}
+.tl {
+	width: 10%;
+	margin-left: 5%;
+}
+@media only screen and (max-width: 1500px) {
+  .ld {
+	left: 34.5%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .ld {
+	left: 34%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .ld {
+	left: 33.5%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .ld {
+	left: 33%;
+  }
+}
+
